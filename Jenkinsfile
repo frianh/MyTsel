@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'slave'
-    }
-    
-  }
+  agent none
   stages {
     stage('Get APK') {
       steps {
