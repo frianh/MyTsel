@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Get APK') {
       steps {
-        echo 'get APK'
+        echo 'get APK 12345678'
       }
     }
     stage('Install APK to Device') {
