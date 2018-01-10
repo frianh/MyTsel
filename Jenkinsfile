@@ -4,7 +4,8 @@ pipeline {
     stage('Get APK') {
       steps {
         echo 'test 1234'
-        sh 'echo "tesst"'
+        sh(script: 'echo "tesst"')
+        
       }
     }
     stage('Install APK to Device') {
